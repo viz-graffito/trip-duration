@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/projectsMy/Trip-Duration/trip-duration/mlruns/0/650647c70a4a44efbe8a779a6e23b076/artifacts
+end_time: 1712494092349
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 650647c70a4a44efbe8a779a6e23b076
+run_name: XGBRegressor
+run_uuid: 650647c70a4a44efbe8a779a6e23b076
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712494049708
+status: 3
+tags: []
+user_id: HP

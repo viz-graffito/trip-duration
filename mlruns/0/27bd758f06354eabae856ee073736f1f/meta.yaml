@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/projectsMy/Trip-Duration/trip-duration/mlruns/0/27bd758f06354eabae856ee073736f1f/artifacts
+end_time: 1712494114590
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27bd758f06354eabae856ee073736f1f
+run_name: XGB Final Model
+run_uuid: 27bd758f06354eabae856ee073736f1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712494092402
+status: 3
+tags: []
+user_id: HP
