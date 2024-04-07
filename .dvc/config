@@ -2,3 +2,6 @@
     type = "hardlink,symlink"
 [core]
     autostage = true
+    remote = origin
+['remote "origin"']
+    url = https://github.com/viz-graffito/trip-duration.git

@@ -36,3 +36,15 @@ stages:
       hash: md5
       md5: 68d013d0c3feec1cab81b8a2a4ce73c6
       size: 3825
+  push_model:
+    cmd: python .\src\models\push_model.py .\data\processed\
+    deps:
+    - path: .\models\
+      hash: md5
+      md5: c5338a580ba4a4be705edb83f2b0fa3b.dir
+      size: 79260
+      nfiles: 2
+    - path: .\src\models\train_model.py
+      hash: md5
+      md5: 68d013d0c3feec1cab81b8a2a4ce73c6
+      size: 3825
