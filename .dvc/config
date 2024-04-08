@@ -2,6 +2,8 @@
     type = "hardlink,symlink"
 [core]
     autostage = true
-    remote = origin
+    remote = myremote
 ['remote "origin"']
     url = https://github.com/viz-graffito/trip-duration.git
+['remote "myremote"']
+    url = s3://buckets/nyc-taxi-predition
