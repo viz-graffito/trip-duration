@@ -3,7 +3,6 @@
 [core]
     autostage = true
     remote = myremote
-['remote "origin"']
-    url = https://github.com/viz-graffito/trip-duration.git
+
 ['remote "myremote"']
-    url = s3://buckets/nyc-taxi-predition
+    url = ../TEMP
