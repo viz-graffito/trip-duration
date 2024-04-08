@@ -5,4 +5,4 @@
     remote = myremote
 
 ['remote "myremote"']
-    url = ../TEMP
+    url = "https://github.com/viz-graffito/trip-duration.git"
