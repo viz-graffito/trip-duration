@@ -7,7 +7,7 @@ def upload_to_s3(local_file_path, bucket_name, s3_file_path):
     s3 = boto3.client('s3')
     
     try:
-        # Upload the file
+        # Upload the file   
         s3.upload_file(local_file_path, bucket_name, s3_file_path)
         print(f"File uploaded successfully to {bucket_name}/{s3_file_path}")
     except FileNotFoundError:
