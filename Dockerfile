@@ -26,6 +26,7 @@ COPY requirements.txt /app/requirements.txt
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
+RUN pip install --upgrade awscli
 
 
 
