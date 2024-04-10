@@ -43,7 +43,7 @@ def predict(input_data: PredictionInput):
 
     features = pd.DataFrame(features, index=[0])
     features = feature_build(features, 'prod')
-    prediction = model.predict([features])[0].item()
+    prediction = model.predict(features)[0].item()
     # Return the prediction
     return {"prediction": prediction}
 
