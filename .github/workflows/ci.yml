@@ -24,7 +24,7 @@ jobs:
   build-and-push-ecr-image:
     name: Push to ECR
     needs: integration
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
