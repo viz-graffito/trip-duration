@@ -29,7 +29,7 @@ def home():
 
 @app.post("/predict")
 def predict(input_data: PredictionInput):
-    # Extract features from input_data and make predictions using the loaded model
+    # Extract features from input_data and make predictions using the loaded model 
     features = {
             'vendor_id': input_data.vendor_id,
             'pickup_datetime': input_data.pickup_datetime,
