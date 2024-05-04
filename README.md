@@ -3,7 +3,7 @@
 
 end-to-end project to calcuate trip durion of NYC taxi using ML.
 
-API : http:13.127.95.196:8080/predict
+API documentation : http:13.127.95.196:8080/docs
 
 
 Project Organization
